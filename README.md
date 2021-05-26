@@ -1,3 +1,5 @@
+<img align="right" width="300" height="300" src="https://user-images.githubusercontent.com/39880630/119734484-62a27180-be7b-11eb-8ef2-1f63a4209345.png">
+
 ## erdospy
 
 Fast sampling of the `G(n, m)`-model of [Erdős–Rényi random graphs](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model).
