@@ -14,10 +14,26 @@ The time and space complexity of the algorithm is in `O(m*samples)`. The result 
 pip install git+https://github.com/NiMlr/erdospy
 ```
 
-Test your installation via:
+Test your installation with:
 ```python
 import erdospy
 erdospy.testall()
+```
+
+
+Generate five samples of the `G(n, m)`-model for `n, m = 4, 3` with:
+```python
+n = 4
+m = 3
+samples = 5
+erdospy.sample_erdos_renyi_gnm(n, m, samples, random_state=42)
+# array([[[1, 3, 3, 1, 2],
+#         [2, 1, 2, 3, 3],
+#         [3, 2, 1, 3, 3]],
+
+#        [[0, 0, 1, 0, 1],
+#         [0, 0, 0, 2, 2],
+#         [2, 0, 0, 0, 1]]])
 ```
 
 
