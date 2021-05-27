@@ -50,7 +50,7 @@ def sample_erdos_renyi_gnm(n, m, samples=1, random_state=None, method="auto",
 
     Examples
     --------
-    >>> from sklearn.utils.random import sample_erdos_renyi_gnm
+    >>> from erdospy import sample_erdos_renyi_gnm
     >>> sample_erdos_renyi_gnm(5, 4, 3, random_state=42)
     array([[[4, 1, 4],
             [2, 2, 2],
