@@ -1,6 +1,6 @@
+from ..sampling import sample_erdos_renyi_gnm
 import numpy as np
 from sklearn.utils.random import (sample_without_replacement,
-                                  sample_erdos_renyi_gnm,
                                   check_random_state)
 
 
